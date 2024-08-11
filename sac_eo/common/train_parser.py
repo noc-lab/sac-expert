@@ -164,7 +164,7 @@ parser.add_argument('--env_buffer_size',help='real data buffer size',
 parser.add_argument('--sim_buffer_size',help='simulated data buffer size',
     type=float)
 parser.add_argument('--model_buffer_size',help='model buffer size to store env data',
-    type=float)
+    type=float,default=1e5)
 parser.add_argument('--expert_buffer_size',help='simulated data buffer size',
     type=float,default=20)
 
